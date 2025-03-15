@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftEdge Marketing Agency</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #ff6600; color: white; padding: 20px; text-align: center; position: relative; }
+        header img { position: absolute; left: 20px; top: 10px; height: 50px; }
+        nav { display: flex; justify-content: center; background: #333; padding: 10px; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; }
+        section { padding: 40px; text-align: center; }
+        .contact { background: #222; color: white; padding: 20px; }
+        footer { background: #000; color: white; text-align: center; padding: 10px; }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav a { padding: 10px; display: block; text-align: center; }
+        }
+        
+        /* Contact Form Styling */
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #ff6600;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        /* Floating Action Button */
+        .fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        /* Video Section */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            width: 80%;
+            height: 400px;
+            border-radius: 10px;
+        }
+        
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your-logo.png" alt="SwiftEdge Logo">
+        <h1>SwiftEdge Marketing Agency</h1>
+        <p>Your Partner in Digital Growth</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in digital marketing, SEO, web development, and brand management to help businesses thrive.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Digital Marketing | SEO Optimization | Web Development | Brand Management | Social Media Management</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Check out our past projects and case studies.</p>
+        
+        <div class="gallery">
+            <img src="portfolio1.jpg" alt="Project 1">
+            <img src="portfolio2.jpg" alt="Project 2">
+            <img src="portfolio3.jpg" alt="Project 3">
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <p>"SwiftEdge transformed our online presence!" - Client</p>
+    </section>
+    <section id="video">
+        <h2>Watch Our Work</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📞 0741272294 / 0714433605</p>
+        <p>📧 your@email.com</p>
+        
+        <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 SwiftEdge Marketing Agency. All rights reserved.</p>
+    </footer>
+    
+    <button class="fab">+</button>
+</body>
+</html>
